@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doc</title>
+    <style>
+        .main{
+            padding-left: 250px;  
+        }
+    </style>
+</head>
+<body>
+    
+    <label for="subject">Math :</label>
+    <input type="text" id="Math">
+    <br><br>
+    <label for="">computer :</label>
+    <input type="text" id="computer">
+    <br><br>
+    <label for="">science :</label>
+    <input type="text"id="science">
+    <br><br>
+    <label for="">urdu :</label>
+    <input type="text" id="urdu">
+    <br><br>
+    <label for="">physics :</label>
+    <input type="text" id="physics">
+    <br><br>
+    <button type="submit"onclick="fun()">submit</button>
+    <br><br><br><br>
+
+   <div class="main">
+    
+    <div id="tb">
+        <table border="1" >
+            <tr>
+                 <td >Math</td>
+                 <td >100</td>
+                 <td id="inp1"></td>
+                </tr>
+                <tr>
+                    <td>computer</td>
+                    <td>100</td>
+                    <td id="inp2"></td>
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <td>100</td>
+                    <td id="inp3"></td>
+                </tr>
+                <tr>
+                    <td>Urdu</td>
+                    <td>100</td>
+                    <td id="inp4"></td>
+                </tr>
+                <tr>
+                    <td>physics</td>
+                    <td>100</td>
+                    <td id="inp5"></td>
+                </tr>    
+   </div>
+<script>
+    function fun(){
+        var math = parseInt(document.getElementById("Math").value);
+        var computer = parseInt(document.getElementById("computer").value);
+        var Science = parseInt(document.getElementById("science").value);
+        var urdu =parseInt(getElementById("urdu").value);
+
+
+
+
+        document.getElementById("Math").innerHTML = inp1;
+    }
+</script>
+    
+    
+</body>
+</html>
